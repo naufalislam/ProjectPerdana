@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/_6sdp"
+    android:paddingRight="@dimen/_6sdp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textColor="#FF5722"
+        android:textSize="@dimen/_25sdp"
+        android:gravity="center"
+        android:text="Tugas Perdana"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:textSize="@dimen/_25sdp"
+        android:textColor="#FFFFFF"
+        android:background="#3F51B5"
+        android:text="1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_weight="1"
+            android:textSize="@dimen/_25sdp"
+            android:textColor="#673AB7"
+            android:background="#FFC107"
+            android:text="2"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_130sdp"/>
+
+        <Button
+            android:layout_weight="1"
+            android:textSize="@dimen/_25sdp"
+            android:textColor="#045980"
+            android:background="#4CAF50"
+            android:text="3"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_130sdp"/>
+
+        <Button
+            android:layout_weight="1"
+            android:textSize="@dimen/_25sdp"
+            android:textColor="#071C8B"
+            android:background="#FFC107"
+            android:text="4"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_130sdp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_weight="1"
+            android:textSize="@dimen/_25sdp"
+            android:textColor="#FFFFFF"
+            android:background="#E91E63"
+            android:text="5"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_100sdp"/>
+
+        <Button
+            android:layout_weight="1"
+            android:textSize="@dimen/_25sdp"
+            android:textColor="#FFFFFF"
+            android:background="#FF5722"
+            android:text="6"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_100sdp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_weight="1"
+            android:textSize="@dimen/_25sdp"
+            android:textColor="#C70D0D"
+            android:background="#2196F3"
+            android:text="7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:layout_weight="1"
+            android:textSize="@dimen/_25sdp"
+            android:textColor="#FFFFFF"
+            android:background="#03A9F4"
+            android:text="8"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <Button
+            android:layout_weight="1"
+            android:textSize="@dimen/_25sdp"
+            android:textColor="#FFFFFF"
+            android:background="#00BCD4"
+            android:text="9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <Button
+            android:layout_weight="1"
+            android:textSize="@dimen/_25sdp"
+            android:textColor="#AD0840"
+            android:background="#009688"
+            android:text="10"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
